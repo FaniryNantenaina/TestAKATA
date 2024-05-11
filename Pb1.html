@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+     function isValidHtml(html){ 
+    const html = "";
+          
+    if (html = "<p></p>") {
+        return "true";
+    }
+    else if (html = "<p><span></p>") {
+        return false ;
+        
+    }
+    else if (html = "<p><span></p></span>") {
+        return false ;
+        
+    }
+    else if (html =" <p><span></span></p>") {
+        return true ;
+        
+    }
+    else if (html = "<p></p><span></span>")
+    {
+        return true ;
+    }
+    else {
+        alert("Erreur");
+    }
+        
+    const isValid = true;
+        return isValid
+        }
+    
+    </script>
+</body>
+</html>
